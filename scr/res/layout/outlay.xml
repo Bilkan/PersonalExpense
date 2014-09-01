@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/iback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:text="@string/back" />
+
+        <Button
+            android:id="@+id/outlayconfirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:text="@string/confirm" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_shape" >
+
+        <EditText
+            android:id="@+id/outlaycat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_toLeftOf="@+id/sommisi"
+            android:ems="10" />
+
+        <EditText
+            android:id="@+id/outlayexp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/outlaycat"
+            android:layout_below="@+id/outlaycat"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:inputType="number|numberDecimal" />
+
+        <EditText
+            android:id="@+id/outlaycom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/outlayexp"
+            android:layout_below="@+id/outlayexp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:ems="10" />
+
+        <EditText
+            android:id="@+id/outlaytime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/outlaycom"
+            android:layout_below="@+id/outlaycom"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:inputType="date|time" />
+
+        <TextView
+            android:id="@+id/turi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/outlaycat"
+            android:layout_alignBottom="@+id/editText1"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:text="@string/category"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/sommisi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/outlayexp"
+            android:layout_alignBottom="@+id/outlayexp"
+            android:layout_alignRight="@+id/turi"
+            android:text="@string/expense" 
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <TextView
+            android:id="@+id/wakti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/outlaytime"
+            android:layout_alignBottom="@+id/outlaytime"
+            android:layout_alignRight="@+id/izahat"
+            android:inputType="date|time"
+            android:text="@string/time" 
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <TextView
+            android:id="@+id/izahat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/outlaycom"
+            android:layout_alignBottom="@+id/outlaycom"
+            android:layout_alignRight="@+id/sommisi"
+            android:text="@string/comment" 
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+    </RelativeLayout>
+
+</LinearLayout>

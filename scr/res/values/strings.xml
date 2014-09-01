@@ -1,0 +1,33 @@
+<resources>
+
+    <string name="app_name">ھېساباتچى</string>
+    <string name="income">كىرىم</string>
+    <string name="outlay">چىقىم</string>
+    <string name="statis">سىتاستىكا</string>
+    <string name="category">تۈرى</string>
+    <string name="expense">سوممىسى</string>
+    <string name="time">ۋاقتى</string>
+    <string name="comment">ئىزاھات</string>
+    <string name="confirm">جەزىملەش</string>
+    <string name="back">قايتىش</string>
+    <string name="source">مەنبەسى</string>
+    <string name="categories">تۈرلىرى</string>
+    <string name="warning">تولۇق توشقۇزۇڭ</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="app_info">ئەپ ھەققىدە</string>
+    <string name="app_name_en">Money Manager</string>
+    <string name="app_name_cn">Bilkan 记账</string>
+    <string name="version">نەشرى 13.04</string>
+    <string name="app_info_content">بۇ سىزنىڭ كۈندىلىك تومۇشتىكى كىرىم چىقىم ئەھۋالىڭىزنى خاتىرىلەپ قويىدىغان ئەپ بولۇپ، ئۇيغۇرچە قوللايدىغان ئاندرويىد سېستىمېلىق ئۈسكۈنىلەردە نورمال ئىشلەيدۇ.</string>
+    <string name="version_new">بۇ نەشىردىكى يېڭىلىقلار:</string>
+    <string name="version_new_content">توردىن كىتاب تەمىنلەنگەن.\nتوردىن خالىغان كىتابنى چۈشۈرىۋالغىلى بولىدۇ.\nكىتابنىڭ مۇقاۋىسىنى كۆرسىتىپ بېرەلەيدۇ.</string>
+    <string name="copyright">ئاپتورلۇق ھوقۇقى باياناتى:</string>
+    <string name="copyright_content">بۇ بىر ھەقسىز دېتال. رۇخسەتسىز سودىغا ئىشلىتىشكە بولمايدۇ. ئاپتورلۇق ھوقۇقى بىلكان ئېلېكتىرون پەن- تېخنىكا شىركىتىگە تەئەللۇق!</string>
+    <string name="copyright_content_en">Copyright 2011 BILKAN       All Rights Reserved.\nwww.bilkan.net</string>
+    <string name="close">تاقاش</string>
+  
+    <string name="about">ھەققىدە</string>
+    
+
+</resources>

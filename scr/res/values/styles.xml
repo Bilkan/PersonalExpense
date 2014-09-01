@@ -1,0 +1,9 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.NoTitleBar">
+        <item name="android:windowTitleSize">35dp</item>
+       
+        <item name="android:textSize">20dp</item>
+    </style>
+
+</resources>

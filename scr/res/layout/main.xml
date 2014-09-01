@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout
+            android:id="@+id/buttons"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="2dp" >
+
+            <Button
+                android:id="@+id/btoutlwy"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="2dp"
+                android:background="@drawable/button"
+                android:text="@string/outlay" />
+
+            <Button
+                android:id="@+id/btstk"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/button"
+                android:text="@string/statis" />
+
+            <Button
+                android:id="@+id/buttonL"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="2dp"
+                android:background="@drawable/button"
+                android:text="@string/income" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvincome_thismonth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="50dp"
+            android:text="كىرىم:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvoutcome_thismonth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/tvincome_thismonth"
+            android:layout_below="@+id/tvincome_thismonth_money"
+            android:layout_marginTop="32dp"
+            android:text="چىقىم:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvoutcome_thismonth_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvincome_thismonth_money"
+            android:layout_alignRight="@+id/tvincome_thismonth_money"
+            android:layout_alignTop="@+id/tvoutcome_thismonth"
+            android:background="@drawable/income_background"
+            android:hint="بۇ ئايلىق چىقىم"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvrest_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvoutcome_thismonth_money"
+            android:layout_alignRight="@+id/tvoutcome_thismonth_money"
+            android:layout_alignTop="@+id/tvrest"
+            android:background="@drawable/income_background"
+            android:hint="بۇ ئايلىق قالدۇق"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvincome_thismonth_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/tvincome_thismonth"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/tvoutcome_thismonth"
+            android:background="@drawable/income_background"
+            android:hint="بۇ ئايلىق كىرىم"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvrest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvoutcome_thismonth"
+            android:layout_below="@+id/tvoutcome_thismonth_money"
+            android:layout_marginTop="28dp"
+            android:text="قالدۇق:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000" />
+
+    </RelativeLayout>
+
+</LinearLayout>
