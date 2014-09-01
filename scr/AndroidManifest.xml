@@ -1,0 +1,49 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.bilkan.personalexpense"
+    android:versionCode="1305"
+    android:versionName="13.05" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:icon="@drawable/peicon"
+        android:label="@string/app_name"
+         >
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+				 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name=".OutlayActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name=".About"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name=".IncomeActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:theme="@style/AppTheme"
+            android:name=".StatisticsActivity"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+
+</manifest>
